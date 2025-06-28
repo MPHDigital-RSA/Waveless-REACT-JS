@@ -1,0 +1,5 @@
+@media screen and (width<680px) {
+    .logo-image {
+        width: 100px;
+    }
+}

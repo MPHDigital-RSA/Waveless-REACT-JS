@@ -1,0 +1,48 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    padding-block: 100px;
+}
+
+.services-grid {
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-inline: 30px;
+
+    grid-template-areas:
+        "task calender calender"
+        "focus notes chat"
+    ;
+}
+
+@media screen and (width<1000px) {
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "task calender"
+            "focus focus"
+            "notes chat"
+        ;
+    }
+}
+
+@media screen and (width<680px) {
+    .services {
+        gap: 20px;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+            "task "
+            "calender"
+            "focus"
+            "notes"
+            "chat"
+        ;
+    }
+}

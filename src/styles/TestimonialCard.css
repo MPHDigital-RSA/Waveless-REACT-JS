@@ -1,0 +1,76 @@
+.testimonial-card {
+    border: 1px solid orange;
+    padding: 40px 17px;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 500ms ease-in-out;
+    flex-grow: 1;
+}
+
+.heading-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.testimonial-card:hover {
+    background-color: orange;
+}
+
+.testimonial-card h3 {
+    font-size: 17px;
+}
+
+.testimonial-card:hover .quote {
+    color: rgb(255, 255, 255);
+}
+
+.testimonial-card .message {
+    color: #8896AB;
+    font-size: 14px;
+}
+
+.testimonial-card:hover .message {
+    color: rgba(255, 255, 255, 0.725);
+}
+
+.author {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.testimonial-card img {
+    width: 48px;
+}
+
+.author-details {
+    display: flex;
+    flex-direction: column;
+    /* gap: */
+}
+
+.author .name {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.testimonial-card:hover .name {
+    color: rgb(255, 255, 255);
+}
+
+.author .job {
+    font-size: 14px;
+    font-weight: 600;
+    color: #8896AB;
+}
+
+.testimonial-card:hover .job {
+    color: rgba(255, 255, 255, 0.725);
+}

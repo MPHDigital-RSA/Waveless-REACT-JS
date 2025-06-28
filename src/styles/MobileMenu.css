@@ -1,0 +1,39 @@
+.mobile-menu {
+    background-color: rgb(242, 183, 5);
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 160px;
+    padding: 50px 0 40px 0;
+    border-radius: 0 0 0 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.224);
+}
+
+.close-button {
+    /* padding: 10px 0; */
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.mobile-menu nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    border-top: 2px solid black;
+    padding-top: 20px;
+}
+
+.mobile-menu li {
+    list-style-type: none;
+}
+
+.mobile-menu li a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+}

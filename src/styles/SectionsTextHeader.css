@@ -1,0 +1,37 @@
+.header-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.header-text h2 {
+    font-size: 34px;
+    line-height: 1.1;
+    font-weight: 700;
+    max-width: 860px;
+}
+
+.header-text h2 span {
+    color: orange;
+
+}
+
+.header-text p {
+    font-size: 18px;
+    line-height: 1.2;
+    /* font-weight: 700; */
+    color: #88968B;
+    max-width: 860px;
+}
+
+@media screen and (max-width: 680px) {
+    .header-text h2 {
+        font-size: 24px;
+    }
+
+    .header-text p {
+        font-size: 14px;
+    }
+}

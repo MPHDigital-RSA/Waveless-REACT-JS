@@ -1,0 +1,15 @@
+.hero {
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding-block: 100px;
+}
+
+@media screen and (width<1000px) {
+    .hero {
+        flex-direction: column;
+        gap: 150px;
+    }
+}

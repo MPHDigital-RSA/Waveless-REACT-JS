@@ -1,0 +1,45 @@
+header {
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 199;
+
+    background-color: white;
+    box-shadow: 0 0 8px rgb(187, 186, 186);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header.container {
+    padding-inline: 15px;
+    max-width: 1300px;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (width<1000px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .desktopNav {
+        display: none;
+    }
+}
+
+@media screen and (width<680px) {}
