@@ -36,7 +36,7 @@ function Navbar() {
             <div className="container header">
                 <Logo imageAsset={headerLogo} imageName="header" />
                 <nav className="desktopNav">
-                    <Navlinks links={headerLinks} />
+                    <Navlinks links={headerLinks} style={{ color: "black" }} />
                 </nav>
                 <div className="header-buttons">
                     <Button buttonText="Download Now" buttonUrl="#" />

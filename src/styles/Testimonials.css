@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 50px;
-    padding-block: 80px;
+    padding-block: 40px;
 }
 
 .slider-container {
